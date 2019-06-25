@@ -8,7 +8,7 @@ handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w'
 handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
 logger.addHandler(handler)
 
-TOKEN = "NTYwNTAzMzMyMTk2NTgxMzc2.D305YA.TPHrxwl5_2kf757UQZXQqp_RwAI"
+TOKEN = ""
 bot = commands.Bot(command_prefix="G-")
 greatFirewall = list()
 
